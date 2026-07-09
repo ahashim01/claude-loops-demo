@@ -1,0 +1,18 @@
+[project]
+name = "mentions-analytics"
+version = "0.1.0"
+description = "Mock social-mentions analytics library — demo project for the Claude Loops session"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "--cov=src --cov-branch --cov-report=term-missing -q"
+
+[tool.coverage.run]
+branch = true
+source = ["src"]
+omit = ["src/__init__.py", "tests/*", "_solutions/*"]
+
+[tool.coverage.report]
+show_missing = true

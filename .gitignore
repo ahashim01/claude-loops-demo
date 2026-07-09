@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.coverage
+.coverage.*
+.pytest_cache/
+htmlcov/
+coverage.xml
+.vscode/settings.json
