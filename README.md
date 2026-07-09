@@ -1,8 +1,7 @@
 # mentions-analytics (demo project)
 
 A tiny, self-contained **mock** social-mentions analytics library used as the sample
-project for the **Claude Loops** team session. It is *not* Lucidya code — it just
-looks the part (mentions, sentiment, channels) so the demo feels familiar.
+project for the **Claude Loops** team session.
 
 The project deliberately ships with **partial test coverage**. The session's loop
 drives it toward 90%, one file at a time.
